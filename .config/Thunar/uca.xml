@@ -1,0 +1,32 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1436926003224111-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>text-editor</icon>
+	<name>Ed_it as Root</name>
+	<unique-id>1436927949282670-1</unique-id>
+	<command>sudo leafpad %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>alienarena</icon>
+	<name>Open as Administrator</name>
+	<unique-id>1436928041850394-2</unique-id>
+	<command>sudo thunar %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>
