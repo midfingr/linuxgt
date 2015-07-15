@@ -45,7 +45,6 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-as-icons" "<Primary>1")
 ; (gtk_accel_path "<Actions>/ThunarWindow/new-window" "<Primary>n")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/forward" "<Alt>Right")
-; (gtk_accel_path "<Actions>/ThunarActions/uca-action-1436927949282670-1" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/10b085ff9ad8c7b2deb817d88b1d56bb" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/move-to-trash" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-by-pattern" "<Primary>s")
