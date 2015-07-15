@@ -60,3 +60,4 @@ Comment[zh_CN]=更改 LXDE 上的默认应用程序
 Comment[zh_TW]=變更 LXDE 的預設應用程式
 Categories=GTK;Settings;DesktopSettings;X-LXDE-Settings;
 #NotShowIn=GNOME;KDE;XFCE;
+NoDisplay=true

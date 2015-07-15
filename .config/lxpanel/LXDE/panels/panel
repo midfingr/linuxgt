@@ -116,14 +116,19 @@ Plugin {
 Plugin {
   type=weather
   Config {
-    alias=L1J6X5
-    city=Oshawa
-    state=Ontario
-    country=Canada
-    woeid="24050618"
+    alias=New York
+    city=New York
+    state=New York
+    country=United States
+    woeid="2459115"
     units=f
     interval=1
     enabled=0
+  }
+}
+Plugin {
+  type=volumealsa
+  Config {
   }
 }
 Plugin {
