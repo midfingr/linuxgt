@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Name=User Accounts
+Comment=Add or remove users
+Categories=System;Settings;
+OnlyShowIn=MATE;
+Icon=system-users
+Exec=mate-accountsdialog
+Type=Application
+Terminal=false
+X-Desktop-File-Install-Version=0.15

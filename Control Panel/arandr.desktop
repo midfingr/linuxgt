@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Dual monitor setup
+Comment=Setup dual monitors and extended desktops
+GenericName=Screen Settings
+GenericName[de]=Bildschirmeinstellungen
+Icon=display
+Exec=arandr
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+StartupNotify=true

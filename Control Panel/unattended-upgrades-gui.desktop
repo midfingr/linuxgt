@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=pamac-updater
+Name=Automated Updates
+Categories=GTK;GNOME;Settings;
+Icon=system-software-update
+Comment=Updates
