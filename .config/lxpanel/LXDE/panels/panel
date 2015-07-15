@@ -63,7 +63,7 @@ Plugin {
   type=launchbar
   Config {
     Button {
-      id=menu://applications/Internet/chromium.desktop
+      id=menu://applications/Internet/google-chrome.desktop
     }
   }
 }
