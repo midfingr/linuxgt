@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///usr/share/icons/Faenza/places/scalable/distributor-logo-archlinux.svg" added="2015-07-15T02:16:04Z" modified="2015-07-15T02:16:04Z" visited="2015-07-15T02:16:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/svg+xml"/>
+        <bookmark:applications>
+          <bookmark:application name="xame" exec="&apos;xame %u&apos;" modified="2015-07-15T02:16:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/midfingr/Downloads/walls.tar.gz" added="2015-07-15T02:47:24Z" modified="2015-07-15T02:47:24Z" visited="2015-07-15T02:47:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Engrampa" exec="&apos;engrampa&apos;" modified="2015-07-15T02:47:24Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/walls/02770_endless_1920x1080.jpg" added="2015-07-15T02:48:39Z" modified="2015-07-15T02:48:39Z" visited="2015-07-15T02:48:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="ccsm" exec="&apos;ccsm %u&apos;" modified="2015-07-15T02:48:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/walls/03570_andromeda_1920x1080.jpg" added="2015-07-15T02:48:48Z" modified="2015-07-15T02:48:48Z" visited="2015-07-15T02:48:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="ccsm" exec="&apos;ccsm %u&apos;" modified="2015-07-15T02:48:48Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/walls/01616_overview_1920x1080.jpg" added="2015-07-15T02:48:55Z" modified="2015-07-15T02:48:55Z" visited="2015-07-15T02:48:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="ccsm" exec="&apos;ccsm %u&apos;" modified="2015-07-15T02:48:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/share/walls/02679_wonderpass_1920x1080.jpg" added="2015-07-15T02:49:10Z" modified="2015-07-15T02:49:10Z" visited="2015-07-15T02:49:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="ccsm" exec="&apos;ccsm %u&apos;" modified="2015-07-15T02:49:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/midfingr/fin" added="2015-07-15T03:15:29Z" modified="2015-07-15T03:15:29Z" visited="2015-07-15T03:15:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Leafpad" exec="&apos;leafpad %u&apos;" modified="2015-07-15T03:15:29Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
