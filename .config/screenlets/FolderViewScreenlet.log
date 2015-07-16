@@ -1,0 +1,21 @@
+CachingBackend: Loading instances from cache
+CachingBackend: Loading <FolderView1>
+opacity='1.0'
+scale='1.0'
+theme_name='default'
+is_sticky='False'
+banner_size='27'
+height='334'
+width='499'
+keep_above='False'
+is_dragged='False'
+keep_below='True'
+y='19'
+x='28'
+skip_taskbar='True'
+folder_path='/home/midfingr/Documents'
+Creating new entry for FolderViewScreenlet in /tmp/screenlets/screenlets.midfingr.running
+Loading instances in: /home/midfingr/.config/screenlets/FolderView/default/
+Loaded config from: FolderView1.ini
+Set options in FolderView
+Restored instances from session 'default' ...

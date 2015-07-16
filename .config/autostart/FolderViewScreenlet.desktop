@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=FolderViewScreenlet
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/FolderView/FolderViewScreenlet.py
+X-GNOME-Autostart-enabled=true
