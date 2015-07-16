@@ -1,0 +1,23 @@
+If you don't have a raid and/or additional OS, remove os-prober copy+paste the following (as su):
+
+pacman -Rns os-prober
+
+|----------- Troubleshooting -----------|
+
+- installer script hangs:
+- umount /mnt -R , then delete, reformat with gparted, then mount.
+- do a ls /mnt ; there should only be lost+found before running the installer.
+
+- if dmraid gives an error message, run once more: grub-mkconfig -o /boot/grub/grub.cfg
+- remember if install fails, delete and reformat the parition used for Arch Linux
+- in the event the script freezes, download gsmartcontrol using pacman, type: 
+
+sudo smartctl -H /dev/sda  #or relevant dev i.e. /dev/sdb
+
+ -- this checks for any disk errors; you can also use the GUI and check for other disk related problems; menu --> GSmartControl
+
+NOTE: GSmartControl doesn't function properly in VirtualBox
+
+
+
+
