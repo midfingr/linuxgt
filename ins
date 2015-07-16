@@ -11,4 +11,12 @@ sudo updatedb
 sudo systemctl enable lightdm
 sudo systemctl enable ntpd
 sudo systemctl enable NetworkManager
+rm -r .config
+rm -r .local
+cp -r linuxgt/.config .config
+cp -r linuxgt/.local .local
+cp -r linuxgt/.bashrc .bashrc
+cp -r linuxgt/Desktop/Documentation Desktop
+chmod +x linuxgt/aur_ins
 echo "Don't forget to edit make.conf"
+echo "Now run linuxgt/aur_ins"

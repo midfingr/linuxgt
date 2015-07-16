@@ -1,0 +1,10 @@
+#!/bin/bash
+sudo cp -r linuxgt/app_extra/screenlets_pack_basic /usr/share/applications
+sudo cp -r linuxgt/control.desktop /usr/share/applications
+sudo cp -r linuxgt/Control\ Panel/ /usr/share/
+sudo cp linuxgt/control_panel /usr/bin/
+sudo cp -r linuxgt/lightdm/lightdm-gtk-greeter.conf /etc/lightdm
+sudo cp -r linuxgt/pixmap/LinuxGT3.png /usr/share/pixmaps/
+sudo cp -r linuxgt/sounds/login.oga /usr/share/sounds/
+sudo cp -r linuxgt/walls /usr/share/
+sudo pacman -U linuxgt/aur_pacs/*.tar.xz
