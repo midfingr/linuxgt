@@ -1,4 +1,0 @@
-@lxpanel --profile LXDE
-@pcmanfm --desktop --profile LXDE
-@xscreensaver -no-splash
-@canberra-gtk-play -f /usr/share/sounds/login.oga
