@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lyrics
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/Lyrics/LyricsScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/Lyrics/icon.png
+NoDisplay=true

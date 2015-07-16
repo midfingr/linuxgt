@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sensors
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/Sensors/SensorsScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/Sensors/icon.png
+NoDisplay=true

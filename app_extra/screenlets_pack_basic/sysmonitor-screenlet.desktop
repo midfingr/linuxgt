@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Sysmonitor
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/Sysmonitor/SysmonitorScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/Sysmonitor/icon.png
+NoDisplay=true

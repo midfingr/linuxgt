@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Clock
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/Clock/ClockScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/Clock/icon.svg
+NoDisplay=true

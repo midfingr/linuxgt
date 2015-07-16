@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Stocks
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/Stocks/StocksScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/Stocks/icon.svg
+NoDisplay=true

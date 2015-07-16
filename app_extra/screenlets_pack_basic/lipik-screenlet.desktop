@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lipik
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/Lipik/LipikScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/Lipik/icon.svg
+NoDisplay=true

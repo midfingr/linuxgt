@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ClearCalendar
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Exec= python2 -u /usr/share/screenlets/screenlets-pack-basic/ClearCalendar/ClearCalendarScreenlet.py
+Icon=/usr/share/screenlets/screenlets-pack-basic/ClearCalendar/icon.svg
+NoDisplay=true
