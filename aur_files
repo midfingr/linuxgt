@@ -1,2 +1,2 @@
 #!/bin/bash
-yaourt -S compiz engrampa-thunar google-chrome localepurge numix-circle-icon-theme-git profile-cleaner slingscold speedtest-cli pamac-aur xame
+yaourt -S compiz engrampa-thunar google-chrome localepurge numix-circle-icon-theme-git profile-cleaner slingscold speedtest-cli pamac-aur xame yad
