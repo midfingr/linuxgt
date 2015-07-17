@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo reflector --country 'Canada' -f 6 -l 6 -n 24 --verbose --save /etc/pacman.d/mirrorlist
