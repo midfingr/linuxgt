@@ -1,12 +1,12 @@
 #!/bin/bash
+sudo mv /etc/pacman.conf /etc/pacman.conf.back
+sudo cp linuxgt/scripts/pacman.conf /etc/pacman.conf
 sudo pacman -S haveged
 sudo systemctl enable haveged
 sudo systemctl start haveged
 sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syy
-sudo mv /etc/pacman.conf /etc/pacman.conf.back
-sudo cp linuxgt/scripts/pacman.conf /etc/pacman.conf
 sudo pacman -S accountsservice arandr activity-log-manager bash-completion cantarell-fonts dconf-editor dialog dosfstools faenza-icon-theme gnome-disk-utility gamin gnome-keyring gparted gvfs lxde leafpad lightdm lightdm-gtk-greeter mate-accountsdialog ncdu networkmanager ntfs-3g pavucontrol polkit-gnome pulseaudio pulseaudio-alsa python2-xdg networkmanager-dispatcher-ntpd network-manager-applet ntp mlocate numlockx numix-themes parcellite reflector rsync screenlets screenlets-pack-basic thunar thunar-volman thunar-archive-plugin tumbler ttf-dejavu ttf-liberation udisks xdotool xfce4-notifyd xfce4-panel xfce4-power-manager xdg-user-dirs-gtk xscreensaver youtube-dl zip unrar unzip p7zip --noconfirm
 xdg-user-dirs-update
 sudo updatedb
@@ -17,7 +17,8 @@ rm -r .config
 rm -r .local
 cp -r linuxgt/.config .config
 cp -r linuxgt/.local .local
-cp -r linuxgt/.bashrc .bashrc && source .bashrc
+cp -r linuxgt/.bashrc .bashrc
+source ~/.bashrc
 cp -r linuxgt/Desktop/Documentation Desktop
 chmod +x linuxgt/aur_ins
 dialog --title 'Message' --msgbox "Dont't forget to edit /etc/make.conf before running aur_ins (optinal) edit /etc/systemd/journald.conf" 7 65
