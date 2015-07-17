@@ -10,4 +10,6 @@ sudo cp -r linuxgt/walls /usr/share/
 sudo cp linuxgt/polkits/10-drives.rules /usr/share/polkit-1/rules.d
 sudo cp linuxgt/polkits/10-disable-suspend.rules /usr/share/polkit-1/rules.d
 sudo cp linuxgt/post-clean /usr/bin/
+sudo mkdir /boot/grub/themes/
+sudo cp -r linuxgt/grub_theme/matrix /boot/grub/themes/
 sudo pacman -U linuxgt/aur_pacs/*.tar.xz

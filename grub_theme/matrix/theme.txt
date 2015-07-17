@@ -1,0 +1,47 @@
+# Matrix Theme for GRUB 2
+# Designed for 1366x768 resolution.
+# Created by xalaros.
+
+# Global Property
+title-text: " "
+title-color: "chartreuse"
+message-color: "white"
+message-bg-color: "black"
+desktop-image: "matrix.png"
+desktop-color: "black"
+terminal-box: "matrix_*.png"
+
+# Show the boot menu.
++ boot_menu
+{
+  left = 50%-320
+  top = 100%-544
+  width = 640
+  height = 350
+  item_font = "Matrix Bold 24"
+  item_color = "#32CD32"
+  selected_item_color = "#3399CC"
+  item_height = 50
+  item_padding = 20
+  item_spacing = 40
+  icon_width = 68
+  icon_height = 68
+  item_icon_space = 28
+  menu_pixmap_style = "matrix_*.png"
+  selected_item_pixmap_style = "selection_*.png"
+}
+
+# Show a circular progress.
++ circular_progress
+{
+  id = "__timeout__"
+  left = 76
+  top = 100%-276
+  width = 200
+  height = 200
+  num_ticks = 10
+  start_angle = -45
+  ticks_desappear = true;
+  center_bitmap = "circle.png"
+  tick_bitmap = "tick.png"
+}
