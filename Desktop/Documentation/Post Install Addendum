@@ -8,3 +8,6 @@ pac gstreamer0.10-bad-plugins gstreamer0.10-base-plugins gstreamer0.10-ffmpeg gs
 
 pac ffmpegthumbnailer
 |----------------------------------|
+
+remove the linuxgt folder if desired
+- in a terminal type: sudo rm -r linuxgt (press ENTER)
