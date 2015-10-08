@@ -18,6 +18,15 @@ sudo smartctl -H /dev/sda  #or relevant dev i.e. /dev/sdb
 
 NOTE: GSmartControl doesn't function properly in VirtualBox
 
+No Audio
+
+- open a terminal
+- type alsamixer
+- press F6 & choose default sound card
+- press 'm' on master
+- press pageup to increase the volume
+- repeat for any channels if needed
+
 
 
 
