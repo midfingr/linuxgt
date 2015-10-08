@@ -1,6 +1,6 @@
 Keyboard Shorcuts:
 
-CTRL+t = lxterminal
+CTRL+ALT+t = lxterminal
 CTRL+n = leafpad # a basic text editor
 ALT+h = Thunar # the file manager
 SHIFT+mouse wheel(up, down) = zoom desktop
