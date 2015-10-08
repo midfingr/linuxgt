@@ -10,7 +10,7 @@ sudo reflector --country 'Your Country' -f 6 -l 6 -n 24 --save /etc/pacman.d/mir
 
 *** Where 'Your Country' can be replaced; i.e. 'United States' --make sure to include the single quotes! ***
 
-after editing the mirrors, open a terminal and simple type: psync 
+after editing the mirrors, open a terminal and simple type: mirrors, then psync to update the mirror lst
 
 - Bash Aliases
 
@@ -32,18 +32,3 @@ You can also run localepurge with the command lcp and lcc:
 to configure type in a terminal: sudo leafpad /etc/locale.nopurge
 comment out NEEDSCONFIGFIRST with a # i.e. #NEEDSCONFIGFIRST, scroll down the botton and select your locale(s), delete any you do not need - save & exit, now run lcp ; if you see an additional message, type: lcc and run lcp again
 
-###DANGER##
-The following command will remove all open source video drivers and you will need to install them again:
-
-sudo pacman -Rs $(pacman -Qq | grep \^xf86-video-)
-
-The reason for this is to clean up extra disk space used for unneeded xorg-drivers ; virtualbox is NOT affected by the command.
-
-### Please Note ###
-Installation on a system requires you remove the virtualbox guest utilities, disable the service and remove the module. Do to so, proceed with the following:
-
-sudo pacman -Rns virtualbox-guest-utils
-sudo systemctl disable virtualboxservice
-sudo rm /etc/modules-load.d/virtualbox.conf
-
-reboot to make sure the module is cleared 
