@@ -5,3 +5,4 @@ CTRL+n = leafpad # a basic text editor
 ALT+h = Thunar # the file manager
 SHIFT+mouse wheel(up, down) = zoom desktop
 CTRL+SHIFT = Menu
+ALT+e = Logout Dialog
