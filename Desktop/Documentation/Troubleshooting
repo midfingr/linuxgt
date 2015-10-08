@@ -26,7 +26,9 @@ No Audio
 - press 'm' on master
 - press pageup to increase the volume
 - repeat for any channels if needed
-
+- close alsamixer by pressing the Esc key
+- while still in a terminal, check output with this command:
+speaker-test -c2 ; ## CAUTION! make sure your speakers are not on full volume !! ##
 
 
 
