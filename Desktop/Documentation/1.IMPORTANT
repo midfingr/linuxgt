@@ -1,4 +1,0 @@
-CHANGE THE ROOT PASSWORD as soon as possible after installation.
-- open terminal (ctrl+alt+t)
-- type: su
-- type: passwd enter new password twice
