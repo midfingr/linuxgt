@@ -3,28 +3,27 @@ Infinality Font Rendering
 Youtube Video:
 https://youtu.be/HnA8KS4BGVs
 
-add to pacman.conf:
+open a terminal and type: fig
+- uncomment the [infinality-bundle] lines (four in all)
+- save and close
+- type su (enter root password)
+- copy & paste the following (press ENTER):
 
-[infinality-bundle]
-Server = http://bohoomil.com/repo/$arch
+pacman-key -r 962DDE58 && pacman-key -f 962DDE58 && pacman-key --lsign 962DDE58
 
-[infinality-bundle-multilib]
-Server = http://bohoomil.com/repo/multilib/$arch
+(this may take a while)
 
-pacman-key -r 962DDE58
-pacman-key -f 962DDE58
-pacman-key --lsign 962DDE58
+- exit super user mode; type 'q'
+- run psync
 
-sudo pacman -Syy
-
-pacman -Ss freetype2-infinality-ultimate
-
-Example install:
-sudo pacman -S freetype2-infinality-ultimate
-sudo pacman -S lib32-freetype2-infinality-ultimate
+Install:
+pac freetype2-infinality-ultimate
+pac lib32-freetype2-infinality-ultimate
 
 reboot
-sudo pacman -S fontconfig-infinality-ultimate
+
+Install the confiration utilty:
+pac fontconfig-infinality-ultimate
 
 Languages
 
@@ -40,7 +39,8 @@ General
 sudo fc-cache -fr
 
 AUR:
-ttf-brill otf-neris ttf-aller ttf-envy-code-r
+copy and paste:
+yrt ttf-brill otf-neris ttf-aller ttf-envy-code-r
 
 SOURCE: 
 https://wiki.archlinux.org/index.php/Infinality
