@@ -8,7 +8,7 @@ sudo cp -r linuxgt/pixmap/LinuxGT3.png /usr/share/pixmaps/
 sudo cp -r linuxgt/sounds/login.oga /usr/share/sounds/
 sudo cp -r linuxgt/walls /usr/share/
 sudo cp linuxgt/polkits/10-drives.rules /usr/share/polkit-1/rules.d
-sudo cp linuxgt/polkits/10-disable-suspend.rules /usr/share/polkit-1/rules.d
+sudo cp linuxgt/polkits/10-disable-suspend.rules /etc/polkit-1/rules.d
 sudo cp linuxgt/scripts/post-clean /usr/bin/
 sudo cp linuxgt/scripts/mirrors /usr/bin/
 sudo cp linuxgt/scripts/up-grub /usr/bin/
