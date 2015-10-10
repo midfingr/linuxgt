@@ -8,3 +8,4 @@ Exec=mate-accountsdialog
 Type=Application
 Terminal=false
 X-Desktop-File-Install-Version=0.15
+NoDisplay=true

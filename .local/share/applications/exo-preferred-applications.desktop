@@ -123,3 +123,4 @@ Comment[zh_TW]=偏好應用程式 (網路瀏覽器、郵件閱讀器、終端機
 X-XfcePluggable=true
 X-XfceHelpComponent=exo
 X-XfceHelpPage=preferred-applications
+NoDisplay=true

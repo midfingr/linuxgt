@@ -167,3 +167,4 @@ StartupNotify=true
 X-XfcePluggable=true
 X-XfceHelpComponent=xfce4-power-manager
 X-XfceHelpPage=start
+NoDisplay=true

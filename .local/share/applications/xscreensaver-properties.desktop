@@ -36,3 +36,4 @@ Comment[pt_BR]=Modificar as propriedades do protetor de tela
 Type=Application
 Categories=Settings;DesktopSettings;Security;X-XFCE;
 #NotShowIn=KDE;GNOME;
+NoDisplay=true

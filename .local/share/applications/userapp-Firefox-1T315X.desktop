@@ -2,7 +2,8 @@
 Encoding=UTF-8
 Version=1.0
 Type=Application
-NoDisplay=true
+NoDisplay=false
 Exec=/usr/lib/firefox/firefox %u
 Name=Firefox
 Comment=Custom definition for Firefox
+icon=firefox
