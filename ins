@@ -20,6 +20,6 @@ cp -r linuxgt/.local .local
 cp -r linuxgt/.scripts .scripts
 cp linuxgt/.bashrc .bashrc
 source ~/.bashrc
-cp -r linuxgt/Desktop/Documentation Desktop
+sudo mv linuxgt/Desktop/Documentation /home/
 chmod +x linuxgt/aur_ins
 dialog --title 'Message' --msgbox "Dont't forget to edit /etc/make.conf before running linuxgt/aur_ins (optional) edit /etc/systemd/journald.conf" 7 65
