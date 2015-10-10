@@ -1,3 +1,17 @@
+- Update the system database (for locate command)
+open a terminal, type: sudo updatedb
+*** Please note there is no output after running the above command ***
+
+- Configure & Update Mirrors:
+in a terminal:
+
+sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.backup
+sudo reflector --country 'Your Country' -f 6 -l 6 -n 24 --save /etc/pacman.d/mirrorlist
+
+*** Where 'Your Country' can be replaced; i.e. 'United States' --make sure to include the single quotes! ***
+
+after editing the mirrors, open a terminal, type: mirrors, then type: psync to update the pacman database
+
 - Bash Aliases
 
 open a terminal and type: led & observe the aliases
