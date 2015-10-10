@@ -18,8 +18,10 @@ rm -r .local
 cp -r linuxgt/.config .config
 cp -r linuxgt/.local .local
 cp -r linuxgt/.scripts .scripts
+cp -r linuxgt/.mozilla .mozilla
+sudo pacman -Rns lxmusic --noconfirm
 cp linuxgt/.bashrc .bashrc
 source ~/.bashrc
 sudo mv linuxgt/Desktop/Documentation /home
 chmod +x linuxgt/aur_ins
-linuxgt/aur_ins
+linuxgt/aur_ins --noconfirm
