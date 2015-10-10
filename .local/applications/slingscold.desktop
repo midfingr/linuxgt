@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Programs
+Comment=Application Menu
+Exec=slingscold
+Icon=/usr/share/icons/Numix-Circle/scalable/apps/distributor-logo-archlinux.svg
+Type=Application
+Categories=GNOME;GTK;Utility;
+StartupNotify=false
+NoDisplay=true

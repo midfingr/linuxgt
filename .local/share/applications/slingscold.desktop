@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Slingscold
-Comment=Lanzador de aplicaciones
-Exec=slingscold
-Icon=Icon=/usr/share/icons/Numix-Circle/scalable/apps/distributor-logo
-Type=Application
-Categories=GNOME;GTK;Utility;
-StartupNotify=false
-NoDisplay=true

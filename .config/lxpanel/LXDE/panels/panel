@@ -33,6 +33,26 @@ Plugin {
   }
 }
 Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=launchbar
+  Config {
+    Button {
+      id=menu://applications/Internet/firefox.desktop
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
   type=launchbar
   Config {
     Button {
@@ -43,34 +63,7 @@ Plugin {
 Plugin {
   type=space
   Config {
-    Size=4
-  }
-}
-Plugin {
-  type=wincmd
-  Config {
-    Button1=iconify
-    Button2=shade
-  }
-}
-Plugin {
-  type=space
-  Config {
-    Size=4
-  }
-}
-Plugin {
-  type=launchbar
-  Config {
-    Button {
-      id=menu://applications/Internet/google-chrome.desktop
-    }
-  }
-}
-Plugin {
-  type=space
-  Config {
-    Size=4
+    Size=2
   }
 }
 Plugin {
