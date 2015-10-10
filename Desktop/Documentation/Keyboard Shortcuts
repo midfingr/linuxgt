@@ -6,3 +6,4 @@ ALT+h = Thunar # the file manager
 SHIFT+mouse wheel(up, down) = zoom desktop
 CTRL+SHIFT = Menu
 ALT+e = Logout Dialog
+MouseWheel Scroll = Cycle Workspaces
