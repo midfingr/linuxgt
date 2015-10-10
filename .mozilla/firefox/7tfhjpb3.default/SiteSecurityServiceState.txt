@@ -1,0 +1,7 @@
+upload.wikimedia.org:HSTS	0	16646	1469835340460,1,0
+addons.mozilla.org:HSTS	0	16646	1469835340235,1,0
+stats.g.doubleclick.net:HSTS	0	16646	1449185572135,1,0
+aur.archlinux.org:HSTS	0	16646	1454369864683,1,0
+addons.cdn.mozilla.net:HSTS	0	16646	1469835338335,1,0
+aur4.archlinux.org:HSTS	0	16646	1454369845188,1,0
+wiki.archlinux.org:HSTS	0	16646	1454370255219,1,0
